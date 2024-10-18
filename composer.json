@@ -1,0 +1,17 @@
+{
+    "name": "samjuk/m2-module-example-banner",
+    "description": "Adds a example banner below the header displaying the current time",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+      "MIT"
+    ],
+    "autoload": {
+      "psr-4": {
+        "SamJUK\\ExampleBanner\\": ""
+      },
+      "files": [
+        "registration.php"
+      ]
+    }
+  }
