@@ -8,7 +8,6 @@ Simple module that adds a banner below the page header when installed. With a fe
 
 ## Installation
 ```sh
-composer config repositories.samjuk-m2-module-example-banner vcs git@github.com:SamJUK/m2-module-example-banner.git
 composer require samjuk/m2-module-example-banner
 php bin/magento cache:flush
 ```
