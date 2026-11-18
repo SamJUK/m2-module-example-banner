@@ -1,0 +1,8 @@
+includes:
+    - vendor/samjuk/dev-standards/php/magento/phpstan.neon
+
+parameters:
+    paths:
+        - view
+        - registration.php
+    fileExtensions: [php, phtml]
