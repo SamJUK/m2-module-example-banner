@@ -2,7 +2,6 @@
     "name": "samjuk/m2-module-example-banner",
     "description": "Adds a example banner below the header displaying the current time",
     "type": "magento2-module",
-    "version": "1.0.0",
     "license": [
         "MIT"
     ],
@@ -34,5 +33,32 @@
         "example",
         "banner",
         "open-source"
-    ]
+    ],
+    "require": {
+        "magento/framework": "^103.0",
+        "magento/module-config": "^101.2"
+    },
+    "require-dev": {
+        "samjuk/dev-standards": "^1.0",
+        "magento/magento-coding-standard": "^41.0",
+        "phpunit/phpunit": "^9.5 || ^10.5 || ^12.5",
+        "bitexpert/phpstan-magento": "^0.44.0",
+        "phpstan/extension-installer": "^1.4",
+        "phpstan/phpstan": "^2.3"
+    },
+    "repositories": [
+        {
+            "name": "mage-os",
+            "type": "composer",
+            "url": "https://mirror.mage-os.org/"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "magento/composer-dependency-version-audit-plugin": false,
+            "magento/magento-composer-installer": false,
+            "phpstan/extension-installer": true
+        }
+    }
 }
